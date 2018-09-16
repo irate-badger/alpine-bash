@@ -10,3 +10,4 @@ RUN sed -i -e "s/bin\/ash/bin\/bash/" /etc/passwd
 
 ENV LC_ALL=en_US.UTF-8
 WORKDIR /root
+ENTRYPOINT ["/bin/bash"]
